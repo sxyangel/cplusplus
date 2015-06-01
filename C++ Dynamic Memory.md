@@ -38,7 +38,7 @@ C 语言中的 **malloc()** 函数在C++中仍然存在，但是建议避免使�
 
     delete pvalue;// Release memory pointed to by pvalue
 
-让我们把理解一下这些概念并且用下面的例子来说明 new 和 delete 是如何起作用的：
+让我们把理解一下这些概念，并且用下面的例子来说明 new 和 delete 是如何起作用的：
 
     #include <iostream>
     using namespace std;
@@ -62,7 +62,7 @@ C 语言中的 **malloc()** 函数在C++中仍然存在，但是建议避免使�
 
 ###数组的动态内存分配：
 
-考虑到你想要为字符数组分配内存，即20个字符的字符串。使用与上面我们使用过的相同的语法我们可以动态地分配内存，如下所示。
+考虑到你想要为字符数组分配内存，即20个字符的字符串。使用与上面相同的语法我们可以动态地分配内存，如下所示。
 
     char* pvalue  = NULL;   // Pointer initialized with null
     pvalue  = new char[20]; // Request memory for the variable
